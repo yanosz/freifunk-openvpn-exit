@@ -1,0 +1,26 @@
+tls-server
+mode server
+dev {{ item.value.dev }} 
+dev-type tap
+log-append /var/log/openvpn_{{item.key}}.log
+verb 3
+proto {{ item.value.proto }}
+port {{ item.value.port }}
+persist-key
+persist-tun
+
+cipher AES-256-CBC
+tls-cipher DHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-CAMELLIA256-SHA:DHE-RSA-AES256-SHA:DHE-RSA-CAMELLIA128-SHA:DHE-RSA-AES128-SHA:CAMELLIA256-SHA:AES256-SHA:CAMELLIA128-SHA:AES128-SHA
+
+ca /etc/openvpn/{{ item.key }}/ca.crt
+cert /etc/openvpn/{{ item.key }}/server.crt
+key /etc/openvpn/{{ item.key }}/server.key
+dh /etc/openvpn/{{ item.key }}/dh2048.pem
+duplicate-cn
+
+keepalive 5 30
+
+{% if item.value.proto == 'udp' %}
+fragment 1420
+mssfix 1420
+{% endif %}

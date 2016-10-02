@@ -1,0 +1,103 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=DE, ST=NRW, L=Cologne, O=Chaos Computer Club Cologne (C4) e.V., OU=Chaosnetz, CN=Chaos Computer Club Cologne (C4) e.V. CA/name=EasyRSA/emailAddress=netz@koeln.ccc.de
+        Validity
+            Not Before: Sep 25 19:30:54 2016 GMT
+            Not After : Sep 23 19:30:54 2026 GMT
+        Subject: C=DE, ST=NRW, L=Cologne, O=Chaos Computer Club Cologne (C4) e.V., OU=Chaosnetz, CN=yagi.freifunk-koeln.de/name=EasyRSA/emailAddress=netz@koeln.ccc.de
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:cc:ed:ab:28:10:fb:02:c5:40:03:a7:3c:8b:c3:
+                    ee:fe:ca:95:9f:86:e8:48:12:ac:47:b8:56:b7:2c:
+                    bc:84:f9:61:cc:92:f8:b5:07:3a:6a:8a:9d:21:9f:
+                    4a:87:97:17:1a:4b:b5:02:ad:2a:76:c4:d3:43:30:
+                    85:61:01:91:0d:16:d8:d6:3e:5e:06:dd:45:79:2e:
+                    60:9f:e1:13:99:e2:a5:b2:68:62:a9:16:90:f0:c4:
+                    c8:11:af:7e:b8:28:2c:bd:7a:79:f2:fe:9d:a4:84:
+                    34:1e:37:54:09:1f:cf:1b:64:c0:24:70:64:8e:e4:
+                    33:63:8d:04:ec:29:1c:01:dd:21:d2:1c:27:7f:f1:
+                    58:e4:cd:7f:41:1d:26:1f:c1:cd:4c:6c:89:f8:84:
+                    71:8e:00:d6:b9:5f:5c:ba:19:7c:7e:47:e8:4b:07:
+                    b2:8f:31:5b:90:a0:b8:2e:6a:f1:46:63:f1:4b:7d:
+                    ff:c8:75:bb:48:29:68:06:81:f6:1a:4a:99:b8:77:
+                    ec:04:4f:64:df:32:08:0b:61:f5:8f:eb:5b:ca:a5:
+                    4a:52:14:04:35:30:bf:93:71:53:ce:e0:59:f8:d3:
+                    29:0b:1a:a6:84:9c:99:e5:83:c4:e5:a7:b1:1b:b3:
+                    af:09:43:06:4f:3a:c4:0c:c0:19:b4:8a:3f:18:73:
+                    87:c7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Server
+            Netscape Comment: 
+                Easy-RSA Generated Server Certificate
+            X509v3 Subject Key Identifier: 
+                FE:33:EC:72:13:25:6C:09:FA:EF:0F:BA:CA:BD:9C:85:89:F3:F2:32
+            X509v3 Authority Key Identifier: 
+                keyid:CC:36:DB:DB:B9:27:CE:3D:45:F1:27:A3:53:11:AD:1D:2C:A6:E9:97
+                DirName:/C=DE/ST=NRW/L=Cologne/O=Chaos Computer Club Cologne (C4) e.V./OU=Chaosnetz/CN=Chaos Computer Club Cologne (C4) e.V. CA/name=EasyRSA/emailAddress=netz@koeln.ccc.de
+                serial:BA:9B:CE:0C:6D:B3:3C:92
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:yagi.freifunk-koeln.de
+    Signature Algorithm: sha256WithRSAEncryption
+         2e:1b:17:41:3c:b0:7d:d8:3b:a7:ac:09:88:c8:b6:9c:e8:22:
+         d7:d4:a6:24:29:44:1a:a8:a7:4e:32:90:b8:89:0b:f0:3b:8f:
+         07:b6:dc:ad:7c:15:13:b7:50:2c:39:87:de:1b:fa:a8:df:31:
+         61:27:e4:85:24:21:04:29:7a:5d:17:f6:64:c8:62:c9:b6:c0:
+         68:42:54:fe:dc:1f:dc:c6:49:fe:09:1e:72:61:9d:97:94:99:
+         48:cc:06:82:f3:f3:fc:a2:0e:df:8b:8a:df:63:14:3d:9a:1d:
+         17:fe:e2:95:90:5b:d5:bd:c9:5d:fd:6b:26:a6:14:a9:69:c7:
+         d0:5d:85:d1:07:43:37:3c:74:41:55:07:b7:75:2c:e5:79:13:
+         ff:af:97:f2:6a:3e:7a:cb:61:ac:4d:f5:8c:ef:95:87:26:5e:
+         fa:d3:2c:2e:48:ce:b3:22:1d:dc:87:ac:70:cb:c8:07:43:ba:
+         ef:40:e7:39:f4:f0:8a:e7:80:b6:18:c6:14:85:cd:0c:1e:85:
+         f7:40:9e:76:e8:f6:2c:28:a9:1a:9c:21:ae:6e:29:18:6e:62:
+         39:ca:06:8b:8f:4a:8e:b3:42:b0:1c:b3:26:1b:fd:1d:4f:90:
+         12:e0:45:3e:55:3c:1f:41:67:19:15:62:63:92:db:37:80:03:
+         42:b7:96:73
+-----BEGIN CERTIFICATE-----
+MIIF7DCCBNSgAwIBAgIBAjANBgkqhkiG9w0BAQsFADCB2DELMAkGA1UEBhMCREUx
+DDAKBgNVBAgTA05SVzEQMA4GA1UEBxMHQ29sb2duZTEuMCwGA1UEChMlQ2hhb3Mg
+Q29tcHV0ZXIgQ2x1YiBDb2xvZ25lIChDNCkgZS5WLjESMBAGA1UECxMJQ2hhb3Nu
+ZXR6MTEwLwYDVQQDEyhDaGFvcyBDb21wdXRlciBDbHViIENvbG9nbmUgKEM0KSBl
+LlYuIENBMRAwDgYDVQQpEwdFYXN5UlNBMSAwHgYJKoZIhvcNAQkBFhFuZXR6QGtv
+ZWxuLmNjYy5kZTAeFw0xNjA5MjUxOTMwNTRaFw0yNjA5MjMxOTMwNTRaMIHGMQsw
+CQYDVQQGEwJERTEMMAoGA1UECBMDTlJXMRAwDgYDVQQHEwdDb2xvZ25lMS4wLAYD
+VQQKEyVDaGFvcyBDb21wdXRlciBDbHViIENvbG9nbmUgKEM0KSBlLlYuMRIwEAYD
+VQQLEwlDaGFvc25ldHoxHzAdBgNVBAMTFnlhZ2kuZnJlaWZ1bmsta29lbG4uZGUx
+EDAOBgNVBCkTB0Vhc3lSU0ExIDAeBgkqhkiG9w0BCQEWEW5ldHpAa29lbG4uY2Nj
+LmRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzO2rKBD7AsVAA6c8
+i8Pu/sqVn4boSBKsR7hWtyy8hPlhzJL4tQc6aoqdIZ9Kh5cXGku1Aq0qdsTTQzCF
+YQGRDRbY1j5eBt1FeS5gn+ETmeKlsmhiqRaQ8MTIEa9+uCgsvXp58v6dpIQ0HjdU
+CR/PG2TAJHBkjuQzY40E7CkcAd0h0hwnf/FY5M1/QR0mH8HNTGyJ+IRxjgDWuV9c
+uhl8fkfoSweyjzFbkKC4LmrxRmPxS33/yHW7SCloBoH2GkqZuHfsBE9k3zIIC2H1
+j+tbyqVKUhQENTC/k3FTzuBZ+NMpCxqmhJyZ5YPE5aexG7OvCUMGTzrEDMAZtIo/
+GHOHxwIDAQABo4IBzzCCAcswCQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBkAw
+NAYJYIZIAYb4QgENBCcWJUVhc3ktUlNBIEdlbmVyYXRlZCBTZXJ2ZXIgQ2VydGlm
+aWNhdGUwHQYDVR0OBBYEFP4z7HITJWwJ+u8Pusq9nIWJ8/IyMIIBDwYDVR0jBIIB
+BjCCAQKAFMw229u5J849RfEno1MRrR0spumXoYHepIHbMIHYMQswCQYDVQQGEwJE
+RTEMMAoGA1UECBMDTlJXMRAwDgYDVQQHEwdDb2xvZ25lMS4wLAYDVQQKEyVDaGFv
+cyBDb21wdXRlciBDbHViIENvbG9nbmUgKEM0KSBlLlYuMRIwEAYDVQQLEwlDaGFv
+c25ldHoxMTAvBgNVBAMTKENoYW9zIENvbXB1dGVyIENsdWIgQ29sb2duZSAoQzQp
+IGUuVi4gQ0ExEDAOBgNVBCkTB0Vhc3lSU0ExIDAeBgkqhkiG9w0BCQEWEW5ldHpA
+a29lbG4uY2NjLmRlggkAupvODG2zPJIwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYD
+VR0PBAQDAgWgMCEGA1UdEQQaMBiCFnlhZ2kuZnJlaWZ1bmsta29lbG4uZGUwDQYJ
+KoZIhvcNAQELBQADggEBAC4bF0E8sH3YO6esCYjItpzoItfUpiQpRBqop04ykLiJ
+C/A7jwe23K18FRO3UCw5h94b+qjfMWEn5IUkIQQpel0X9mTIYsm2wGhCVP7cH9zG
+Sf4JHnJhnZeUmUjMBoLz8/yiDt+Lit9jFD2aHRf+4pWQW9W9yV39ayamFKlpx9Bd
+hdEHQzc8dEFVB7d1LOV5E/+vl/JqPnrLYaxN9YzvlYcmXvrTLC5IzrMiHdyHrHDL
+yAdDuu9A5zn08IrngLYYxhSFzQwehfdAnnbo9iwoqRqcIa5uKRhuYjnKBouPSo6z
+QrAcsyYb/R1PkBLgRT5VPB9BZxkVYmOS2zeAA0K3lnM=
+-----END CERTIFICATE-----

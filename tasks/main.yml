@@ -1,0 +1,37 @@
+- name: install openvpn
+  apt: name=openvpn state=present
+
+- name: install easy-rsa
+  apt: name=easy-rsa state=present
+
+- name: Create OpenVPN instance directories
+  file: path="/etc/openvpn/{{ item.key }}"  state=directory
+  with_dict: "{{ openvpn_exit }}"
+
+- name: Create DH-parameter
+  command: "/usr/bin/openssl dhparam -out /etc/openvpn/{{ item.key }}/dh2048.pem 2048 creates=/etc/openvpn/{{ item.key }}/dh2048.pem"
+  with_dict: "{{ openvpn_exit }}"
+
+- name: Create configuration file
+  with_dict: "{{ openvpn_exit }}"
+  template: >
+    src=openvpn.conf.j2
+    dest=/etc/openvpn/{{ item.key }}/openvpn.conf
+    owner=root
+    group=root
+    mode='0644'
+
+- name: Copy certificate
+  copy: src="files/{{ item.value.cert }}"  dest="/etc/openvpn/{{ item.key }}/server.crt"
+  with_dict: "{{ openvpn_exit }}"
+
+- name: Copy CA certificate
+  copy: src="files/{{ item.value.ca }}"  dest="/etc/openvpn/{{ item.key }}/ca.crt"
+  with_dict: "{{ openvpn_exit }}"
+   
+- name: Create configuration symlink for autostart
+  file: src="/etc/openvpn/{{ item.key }}/openvpn.conf" dest="/etc/openvpn/{{ item.key }}.conf" state=link
+  with_dict: "{{ openvpn_exit }}"
+
+- name: Reload systemd configuration to reflect changed symlinks
+  command: "systemctl daemon-reload"

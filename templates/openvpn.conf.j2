@@ -21,6 +21,5 @@ duplicate-cn
 keepalive 5 30
 
 {% if item.value.proto == 'udp' %}
-fragment 1420
-mssfix 1420
+link-mtu 1400
 {% endif %}
